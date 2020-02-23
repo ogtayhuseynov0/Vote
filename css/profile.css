@@ -1,0 +1,35 @@
+body{
+    padding-left: 300px;
+    /*background-color: #f4f4f4;*/
+    background-image: url("../images/unnamed.jpg");
+
+}
+@media only screen and (max-width : 992px) {
+    body {
+        padding-left: 0;
+    }
+}
+.sdn li a i{
+    color: #ae475e;
+}
+.brand-logo{
+    margin-left: 1%;
+}
+.spinner-myColor,
+.spinner-myColor-only {
+    border-color: #ae475e;
+}
+.pred{
+    margin-top: 23%;
+}
+i{
+    color: #ae475e;
+}
+.mn{
+    /*background-color: #fff;*/
+    color: #fff;
+}
+.msp{
+    margin-top: 5%;
+    border-radius: 2px;
+}

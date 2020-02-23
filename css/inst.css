@@ -1,0 +1,15 @@
+#searr {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+
+}
+
+#searr:focus {
+    width: 100%;
+}
+.dd input[type=text]{
+
+}
+input[type=text]:focus{
+    background-color: #00acc1;
+}

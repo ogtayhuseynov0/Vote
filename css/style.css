@@ -1,0 +1,59 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.myColor{
+    background-color: #ae475e;
+}
+.myColor2{
+    color: #ae475e;
+}
+.hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgb(174,71,94);
+    margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    background: rgb(174,71,94);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 8px;
+}
+.sll:hover{
+    background-color: #914149;
+}
+.myshad:hover{
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(174,71,93,1);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(174,71,93,1);
+    box-shadow: 0px 0px 4px 1px rgba(174,71,93,1);
+}
+.myActive{
+    /*background-color: #833744;*/
+    background: linear-gradient(90deg, #833744 3%, #ffffff 3%);
+
+}
+.col.s12 > .btn {
+    width: 100%;
+}
+.section{
+    background-color: #f4f4f4;
+}
+i{
+    color: #ae475e;
+}
